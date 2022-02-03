@@ -15,3 +15,8 @@ git add .
 Then commit your changes:
 git commit -m "Untrack files in .gitignore"
 
+///working with branches
+
+git branch login   // to create branch
+git chechout login  // to switch to login branch
+
