@@ -5,3 +5,13 @@ git add *.html
 git commit  // will open Vim editor.Click I to go insert mode.
 git commit -m 'changed commited'
 touch .gitignore
+
+///Why is .gitignore not ignoring my files?
+//To untrack files, it is necessary to remove from the repository the tracked files listed in .gitignore file. 
+//Then re-add them and commit your changes
+
+git rm -r --cached .
+git add .
+Then commit your changes:
+git commit -m "Untrack files in .gitignore"
+
