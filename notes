@@ -1,0 +1,4 @@
+git status
+git rm --cached index.html   // to untrack 
+git add .
+git add *.html
