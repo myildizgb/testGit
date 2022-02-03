@@ -2,3 +2,6 @@ git status
 git rm --cached index.html   // to untrack 
 git add .
 git add *.html
+git commit  // will open Vim editor.Click I to go insert mode.
+git commit -m 'changed commited'
+touch .gitignore
