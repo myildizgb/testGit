@@ -48,3 +48,8 @@ git remote
 // After adding and commiting the changes. You chould push it to github
 
 git push
+$ git config credential.helper store
+$ git push  https://github.com/myildizgb/testGit.git
+
+Username for 'https://github.com': myildizgb
+Password for 'https://myildizgb@github.com': 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
