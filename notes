@@ -39,12 +39,6 @@ git push -u origin main
 git remote 
 //For Linux, you need to configure the local GIT client with a username and email address,
 
- git config --global user.name 'myildizgb'
- git config --global user.email 'myildizgb@gmail.com'
- git config -l
- Username for 'https://github.com' : myildizgb
- Password for 'https://github.com' :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
-
 // After adding and commiting the changes. You chould push it to github
 
 git push
