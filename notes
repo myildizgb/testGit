@@ -15,8 +15,36 @@ git add .
 Then commit your changes:
 git commit -m "Untrack files in .gitignore"
 
-///working with branches
+//working with braches
+// to create a branch
+git checkout login
+touch login.html
+git add .
+git commit -m 'login form'
 
-git branch login   // to create branch
-git chechout login  // to switch to login branch
+// if you switch to master branch 
+// after finishing with the functionality with login branch
+// you can merge with master. You need to be on the master branch.
+git checkout master // login.html form would diseppear from the current working director
 
+git merge login -m 'loging merged with the master
+//to remove the origin
+git remote rm origin
+
+///To work with github repository
+git remote add origin https://github.com/myildizgb/testGit.git
+git branch -M main
+git push -u origin main
+// to go to origin
+git remote 
+//For Linux, you need to configure the local GIT client with a username and email address,
+
+ git config --global user.name 'myildizgb'
+ git config --global user.email 'myildizgb@gmail.com'
+ git config -l
+ Username for 'https://github.com' : myildizgb
+ Password for 'https://github.com' :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
+
+// After adding and commiting the changes. You chould push it to github
+
+git push
