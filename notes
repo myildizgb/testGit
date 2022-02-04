@@ -43,7 +43,7 @@ git remote
  git config --global user.email 'myildizgb@gmail.com'
  git config -l
  Username for 'https://github.com' : myildizgb
- Password for 'https://github.com' :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
+ Password for 'https://github.com' :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
 
 // After adding and commiting the changes. You chould push it to github
 
@@ -54,4 +54,5 @@ git config --global credential.helper store
 gh auth login   // to follow the command line installing instructions
 
 git pull  // to bring down the updated project by your team member
-
+//check this out
+https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
