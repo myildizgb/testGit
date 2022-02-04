@@ -53,4 +53,5 @@ sudo snap install gh
 git config --global credential.helper store
 gh auth login   // to follow the command line installing instructions
 
+git pull  // to bring down the updated project by your team member
 
